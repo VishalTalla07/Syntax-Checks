@@ -1,7 +1,6 @@
 correctUsername = "vtalla"
 correctPassword = "vishal@1234"
 
-
 maxAttempts = 0
 
 while maxAttempts <= 3:
@@ -12,7 +11,6 @@ while maxAttempts <= 3:
         print("Login GOOD")
     else:
         maxAttempts += 1
-        print("Login Failed")
+        print("Login FAILED")
        
 print("Max attempts reached Account Blocked")
-
